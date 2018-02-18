@@ -73,7 +73,7 @@ h2{
     box-shadow: 0 0 1px;
 }
 
-container .yes {
+.container .yes {
 
     background-color: rgba(7, 132, 40, 0.73);
     padding: 20px;
@@ -83,7 +83,7 @@ container .yes {
     box-shadow: 0 0 1px;
 }
 
-container .bank-list li a {
+.container .bank-list li a {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
@@ -96,18 +96,18 @@ container .bank-list li a {
 
 }
 
-container .bank-list li a:hover {
+.container .bank-list li a:hover {
     background-color: #fff;
     color: #055c9b;
 }
 
 
-container .bank-list ul {
+.container .bank-list ul {
     margin: 0;
     padding: 0;
 }
 
-container .bank-list ul li {
+.container .bank-list ul li {
     display: inline-block;
     list-style: none;
 
@@ -123,7 +123,7 @@ container .bank-list ul li {
 
 
 
-container .box-facebook {
+.container .box-facebook {
     display: inline-block;
     width: 130px;
     padding: 10px 0;
