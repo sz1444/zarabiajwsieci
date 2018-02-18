@@ -173,7 +173,7 @@ h2{
 .container .box >ul li:before {
   content: '✓';
     padding-right: 10px;
-    color:rgb(7, 132, 40);
+     color:rgb(70, 255, 119);
     font-weight: bold;
     text-shadow: 0 0 1px #000;
    font-size: 20px;
