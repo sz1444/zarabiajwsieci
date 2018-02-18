@@ -115,7 +115,7 @@ h2{
 
 }
 
-.facebook iframe {
+#facebook iframe {
     top: 20px;
     left: -300px;
     display: inline-block;
@@ -139,7 +139,7 @@ h2{
     left: 255px;
 }
 
- facebook {
+ #facebook {
     width: 400px;
     height: 130px;
     position: fixed;
@@ -148,7 +148,7 @@ h2{
     transition-duration: 1s;
 }
 
- .facebook:hover {
+ #facebook:hover {
     left: 0px;
 }
 
