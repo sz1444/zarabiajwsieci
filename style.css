@@ -187,10 +187,11 @@ h2{
          background-position: -350px -130px;
          
     }
-    .box {
+    .container .box {
         text-align: center;
-        width: 90%;
-        margin: 0;
+        position:relative;
+        width: 70%;
+        margin: 0 auto;
         padding: 20px;
     }
 }
