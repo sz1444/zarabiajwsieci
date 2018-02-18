@@ -30,7 +30,7 @@ body {
 }
 
 
-.box {
+.contaier .box {
     width: 50%;
     position: absolute;
     margin: 50px;
@@ -57,14 +57,14 @@ h2{
     margin: 20px 0;
 }
 
-.box p {
+.container .box p {
     line-height: 23px;
     text-shadow: 0 0 1px #000;
 
 
 }
 
-.waring {
+.container .waring {
     background-color: rgba(170, 0, 13, 0.73);
     padding: 20px;
     border: 0px solid #000;
@@ -73,7 +73,7 @@ h2{
     box-shadow: 0 0 1px;
 }
 
-.yes {
+container .yes {
 
     background-color: rgba(7, 132, 40, 0.73);
     padding: 20px;
@@ -83,7 +83,7 @@ h2{
     box-shadow: 0 0 1px;
 }
 
-.bank-list li a {
+container .bank-list li a {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
@@ -96,18 +96,18 @@ h2{
 
 }
 
-.bank-list li a:hover {
+container .bank-list li a:hover {
     background-color: #fff;
     color: #055c9b;
 }
 
 
-.bank-list ul {
+container .bank-list ul {
     margin: 0;
     padding: 0;
 }
 
-.bank-list ul li {
+container .bank-list ul li {
     display: inline-block;
     list-style: none;
 
@@ -115,7 +115,7 @@ h2{
 
 }
 
-iframe {
+.container iframe {
     top: 20px;
     left: -300px;
     display: inline-block;
