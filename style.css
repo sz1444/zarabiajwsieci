@@ -115,7 +115,7 @@ h2{
 
 }
 
-iframe {
+.facebook iframe {
     top: 20px;
     left: -300px;
     display: inline-block;
