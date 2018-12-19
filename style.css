@@ -1,289 +1,173 @@
 * {
     margin: 0;
+    padding: 0 ;   
     font-family: sans-serif;
-}
-a{
-    color:#83a0f2;
-    text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0 0 1px #000;
-    
-    
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #000;
-    background-image: url(img/tlo.png);
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body{background-color: #e3e3e3;
+background-image: url(img/tlo.jpg);
+background-size: cover}
 
-
+.locked{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image:url(img/tlo.jpg);;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    color: #fff;
-}
-
-
-.container .box {
-    width: 50%;
-    position: absolute;
-    margin: 50px;
-    right: 0;
-    transition-duration: .3s;
-
-}
-
-
-h1 {
-    padding: 20px 0;
-    color: #fff;
-    margin: 0px 0;
-    font-size: 55px;
-}
-
-h1 small {
-    padding-top: 20px;
+.locked button{
     display: block;
-    font-size: 25px;
+    margin: 10px auto;
+    padding:10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border:1px solid #fff;
+    color:#fff;
+    cursor: pointer;
+}
+.box{
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+    background-color: rgba(45, 111, 152, 0.98);
+    left:0;
+    right: 0;
+    margin: auto;
+    top:50%;
+    transform: translateY(-100px);
+    color:#fff; 
+    font-size: 2rem;
+}
+
+.box input{
+    padding: 12px; 
+    border: 0;
+    margin: 10px;
+}
+
+.box h3{
+ line-height: 0px;
+}
+.container{
+    max-width: 600px;
+    text-align: ;
+    margin: auto;
+    margin-top: -550px;
+    background-color: #fff;
+    padding:50px;
+  text-align: center;
+    line-height: 27px;
+ }
+
+
+h1{
+    color:#ffffff;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h2{
-    margin: 20px 0;
-}
-
-.container .box p {
-    line-height: 23px;
-    text-shadow: 0 0 1px #000;
-
-
-}
-
-.container .waring {
-    background-color: rgba(170, 0, 13, 0.73);
-    padding: 20px;
-    border: 0px solid #000;
+    margin: 20px;
+    color:#333;
     text-align: center;
-    margin: 20px 0;
-    box-shadow: 0 0 1px;
+    font-size: 2rem;
+    color:#2d6f98;
 }
 
-.container .yes {
+.waring{
+    background-color: #eee;
+    border:1px solid #ddd;
+    color:rgb(255, 107, 107);
+    padding: 40px;
+    font-weight:bold;
+    margin-bottom:50px;
+}
 
-    background-color: rgba(7, 132, 40, 0.73);
-    padding: 20px;
-    border: 0px solid #000;
+.yes{
+    background-color: #eee;
+    color:#159b0f;
+    font-weight:bold;
+     border:1px solid #ddd;
+      padding: 40px;
+    margin: 30px 0;
+    margin-top:50px;
+}
+
+header{
+    margin-top: -20px;
+
+    padding: 100px;
+    padding-bottom: 600px;
+}
+
+header p{
+    font-size: 2rem;
+    color:#fff;
     text-align: center;
-    margin: 20px 0;
-    box-shadow: 0 0 1px;
-}
-
-.container .bank-list li a {
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    border: 1px solid #fff;
-    padding: 20px;
-    text-shadow: 0 0 1px #000;
-    font-weight: bold;
-    transition-duration: .3s;
-
-
-}
-
-.container .bank-list li a:hover {
-    background-color: #fff;
-    color: #055c9b;
-}
-
-
-.container .bank-list ul {
-    margin: 0;
-    padding: 0;
-}
-
-.container .bank-list ul li {
-    display: inline-block;
-    list-style: none;
-
-    margin: 35px 0;
-
-}
-
-#facebook iframe {
-    top: 20px;
-    left: -300px;
-    display: inline-block;
-}
-
-
-
- .box-facebook {
-    display: inline-block;
-    width: 130px;
-    padding: 10px 0;
-    box-sizing: border-box;
-    background-color: #054879;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    transform: rotate(-90deg);
-    position: absolute;
-    top: 43px;
-    left: 255px;
-}
-
- #facebook {
-    width: 400px;
-    height: 130px;
-    position: fixed;
-    top: 20%;
-    left: -300px;
-    transition-duration: 1s;
-}
-
- #facebook:hover {
-    left: 0px;
-}
-
-.container .info {
-    font-size: 20px;
-    
-}
-
-.container .info-etap1{
-    text-align: center;
-    font-size: 20px;
-}
-
-.box > ul{
-    margin: 0;
-    padding: 0px;
-}
-
-.container .box > ul li{
-    list-style:none;
-}
-.container .box >ul li:before {
-  content: '✓';
-    padding-right: 10px;
-     color:rgb(70, 255, 119);
-    font-weight: bold;
-    text-shadow: 0 0 1px #000;
-   font-size: 20px;
-}
-
-@media (max-width: 1000px) {
-     body{
-         text-align: 
-    -webkit-background-size: 100%;
-    background-size: 130%;
-         background-position: -350px -130px;
-         
-    }
-    .container .box {
-        text-align: center;
-        position:relative;
-        width: 70%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 600px) {
-   
-    .bank-list ul li {
-        display: block;
-        width: 100%;
-        margin: 10px 0;
-    }
-    
-    .bank-list li a {
-        display: block;
-        max-width: 100%;
-        text-align: center;
-    }
 }
 
 .register{
-    margin:  0 auto;
-    padding: 20px 0;
-    margin-bottom: 20px;
-    background-color: #83a0f2;
-    display: block;
-    color:#fff;
-    text-align: center;
-    width: 80%;
-    
-    border-radius: 5px;
-    border:1px solid #000;
-}
-#locked{
-    background-color: #000;
-    position: fixed;
-    top:0;
-    width: 100%;
-    height: 100%;
-}
-
-.locked{
-    -webkit-filter: blur(13px);
--moz-filter: blur(13px);
--o-filter: blur(13px);
--ms-filter: blur(13px);
-filter: blur(13px);
-}
-
-#login{
-    box-sizing: border-box;
-    position: fixed;
-  left: 50%;
-  width: 300px;
-  margin-left: -150px; 
-    text-align: center;
-    top:50%;
-    height:180px;
-    margin-top: -90px;
-  color:#fff;
+    display: inline-block;
     padding: 20px;
-    z-index: 1;
-    box-shadow: 0 0 5px #fff;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
-background: rgb(69,72,77); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    color:#fff;
+    text-decoration: none;
+    background-color: #3355af;
+    margin: 20px;
 }
 
-#login button{
-    display: block;
-    margin: 16px auto;
-    padding:10px 20px;
-    background-color: #0c9847;
-    border: 0;
-    width: 50%;
-    color:#fff;
+.send{
+    color:#2d6f98;
     font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition-duration: .3s;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 40px;
+    border:1px solid #2d6f98;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#2d6f98;
+    text-decoration: none;
+}
+
+.bank-list{
+    display: flex;
+    justify-content: center;padding-bottom: 50px;
+}
+
+.bank-list li{
+    display: inline-block;
+    width: 49%;
+    margin-top:5px;
     
 }
 
-#login button:hover{
-    background-color: #0b812b;
+.bank-list a{
+        display:block;
+    padding: 20px 30px;
+    margin-top: 0px;
+    border:1px solid #2d6f98;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#2d6f98;
+    text-decoration: none;
+    
 }
 
-#login input{
+.messenger{
+    position: fixed;
+    width: 60px;
     padding: 10px;
-}
-h3{
-    margin: 10px auto;
+    border-radius: 50px;
+    height: 60px;
+    background-color: #205d83;
+    bottom: 50px;
+    right: 50px;
+
 }
